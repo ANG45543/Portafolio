@@ -743,3 +743,83 @@ html {
     padding: 2rem;
   }
 }
+
+
+
+
+
+/* ================= CSS - AGREGAR A STYLES.CSS ================= */
+
+/* Destacado de texto */
+.highlight {
+  color: #22d3ee;
+  font-weight: 600;
+}
+
+/* Contenedor de especialidades */
+.expertise-highlights {
+  display: grid;
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+/* Item individual de especialidad */
+.expertise-item {
+  background: rgba(30, 41, 59, 0.5);
+  border: 1px solid rgba(34, 211, 238, 0.2);
+  border-radius: 12px;
+  padding: 1.5rem;
+  display: flex;
+  gap: 1.5rem;
+  align-items: start;
+  transition: all 0.3s ease;
+}
+
+.expertise-item:hover {
+  transform: translateY(-5px);
+  border-color: rgba(34, 211, 238, 0.5);
+  box-shadow: 0 10px 30px rgba(34, 211, 238, 0.1);
+}
+
+/* Ícono de especialidad */
+.expertise-icon {
+  font-size: 2.5rem;
+  flex-shrink: 0;
+  filter: drop-shadow(0 0 10px rgba(34, 211, 238, 0.3));
+}
+
+/* Información de especialidad */
+.expertise-info h4 {
+  color: #22d3ee;
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.expertise-info p {
+  color: #cbd5e1;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* Responsive para móviles */
+@media (max-width: 768px) {
+  .expertise-item {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+
+  .expertise-icon {
+    font-size: 2rem;
+  }
+
+  .expertise-info h4 {
+    font-size: 1.1rem;
+  }
+
+  .expertise-info p {
+    font-size: 0.95rem;
+  }
+}

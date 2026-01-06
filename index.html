@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Juan Angel | Portafolio</title>
+
+  <!-- DEVICON -->
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ================= NAVBAR ================= -->
+<nav class="navbar">
+  <div class="nav-container">
+    <div class="nav-logo">
+      <img src="img/escudo.png" alt="Logo">
+      <span>Juan Angel</span>
+    </div>
+    
+    <button class="nav-toggle" id="navToggle">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <ul class="nav-menu" id="navMenu">
+      <li><a href="#hero" class="nav-link active">Inicio</a></li>
+      <li><a href="#about" class="nav-link">Información</a></li>
+      <li><a href="#services" class="nav-link">Servicios</a></li>
+      <li><a href="#experience" class="nav-link">Portafolio</a></li>
+      <li><a href="#contact" class="nav-link">Contacto</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- ================= HERO ================= -->
+<section class="hero" id="hero">
+
+  <div class="info">
+    <img src="img/escudo.png" alt="Escudo personal" class="personal-shield">
+
+    <h1>Hola, soy <span>Juan Angel</span></h1>
+    <h2>Ingeniero en Sistemas</h2>
+    <p>
+      Desarrollo soluciones de software y aplicaciones web enfocadas
+      en eficiencia, diseño y tecnología moderna.
+    </p>
+
+    <div class="buttons">
+     <a href="https://github.com/ANG45543" target="_blank" class="btn">GitHub</a>
+     <a href="#contact" class="btn outline">Contacto</a>
+    </div>
+
+  </div>
+
+  <div class="orbit-container">
+    <div class="center-image">
+      <img src="img/perfile.jpeg" alt="Juan Angel">
+    </div>
+
+    <div class="orbit">
+      <span style="--i:1"><i class="devicon-java-plain"></i></span>
+      <span style="--i:2"><i class="devicon-kotlin-plain"></i></span>
+      <span style="--i:3"><i class="devicon-cplusplus-plain"></i></span>
+      <span style="--i:4"><i class="devicon-javascript-plain"></i></span>
+      <span style="--i:5"><i class="devicon-html5-plain"></i></span>
+      <span style="--i:6"><i class="devicon-css3-plain"></i></span>
+      <span style="--i:7"><i class="devicon-react-original"></i></span>
+      <span style="--i:8"><i class="devicon-laravel-plain"></i></span>
+      <span style="--i:9"><i class="devicon-mysql-plain"></i></span>
+      <span style="--i:10"><i class="devicon-mongodb-plain"></i></span>
+      <span style="--i:11"><i class="devicon-oracle-original"></i></span>
+      <span style="--i:12"><i class="devicon-arduino-plain"></i></span>
+    </div>
+  </div>
+
+</section>
+
+<!-- ================= INFORMACIÓN ================= -->
+<section class="about" id="about">
+  <h2 class="section-title">Sobre Mí</h2>
+  
+  <div class="about-content">
+    <div class="about-text">
+      <h3>Ingeniero en Sistemas Computacionales</h3>
+      <p>
+        Apasionado por el desarrollo de software y la creación de soluciones tecnológicas 
+        innovadoras. Con experiencia en desarrollo web full-stack, sistemas IoT y aplicaciones 
+        empresariales.
+      </p>
+      <p>
+        Mi enfoque está en crear aplicaciones eficientes, escalables y con un diseño 
+        moderno que mejoren la experiencia del usuario y resuelvan problemas reales.
+      </p>
+      
+      <div class="skills-grid">
+        <div class="skill-category">
+          <h4>Frontend</h4>
+          <div class="skill-tags">
+            <span>React</span>
+            <span>JavaScript</span>
+            <span>HTML/CSS</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h4>Backend</h4>
+          <div class="skill-tags">
+            <span>Laravel</span>
+            <span>PHP</span>
+            <span>Java</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h4>Bases de Datos</h4>
+          <div class="skill-tags">
+            <span>MySQL</span>
+            <span>PostgreSQL</span>
+            <span>MongoDB</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= SERVICIOS ================= -->
+<section class="services" id="services">
+  <h2 class="section-title">Servicios</h2>
+  
+  <div class="services-grid">
+    <div class="service-card">
+      <div class="service-icon">
+        <i class="devicon-react-original"></i>
+      </div>
+      <h3>Desarrollo Web</h3>
+      <p>
+        Creación de aplicaciones web modernas y responsivas utilizando las 
+        últimas tecnologías como React, Laravel y más.
+      </p>
+    </div>
+
+    <div class="service-card">
+      <div class="service-icon">
+        <i class="devicon-java-plain"></i>
+      </div>
+      <h3>Sistemas Empresariales</h3>
+      <p>
+        Desarrollo de sistemas de gestión, puntos de venta e inventarios 
+        adaptados a las necesidades de tu negocio.
+      </p>
+    </div>
+
+    <div class="service-card">
+      <div class="service-icon">
+        <i class="devicon-arduino-plain"></i>
+      </div>
+      <h3>Soluciones IoT</h3>
+      <p>
+        Diseño e implementación de sistemas IoT con Arduino y sensores 
+        para monitoreo y automatización.
+      </p>
+    </div>
+
+    <div class="service-card">
+      <div class="service-icon">
+        <i class="devicon-mysql-plain"></i>
+      </div>
+      <h3>Bases de Datos</h3>
+      <p>
+        Diseño, optimización e implementación de bases de datos relacionales 
+        y no relacionales.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ================= EXPERIENCIA ================= -->
+<section class="experience" id="experience">
+
+  <h2 class="section-title">Portafolio</h2>
+
+  <div class="experience-grid">
+
+    <!-- EXPERIENCIA 1 -->
+    <div class="experience-card">
+      <div class="carousel">
+        <img src="img/sistv2.png" class="active">
+        <img src="img/sist2.2.2.png">
+        <img src="img/sist2.2.png">
+        <img src="img/sist22.png">
+        <img src="img/sist2crearrol.png">
+        <img src="img/sist2rol.png">
+        <img src="img/sist2user.png">
+      </div>
+
+      <div class="exp-content">
+        <h3>Desarrollo de Sistema Web – Tienda Virtual</h3>
+        <span>Enero – Junio 2024</span>
+        <p>
+          Desarrollo de una aplicación web en <strong>Laravel</strong>,
+          enfocada en la gestión de inventario de una tienda virtual.
+          El sistema permitió controlar productos, entradas y salidas
+          de stock, mejorando la eficiencia operativa.
+        </p>
+
+        <div class="tech">
+          <i class="devicon-laravel-plain"></i>
+          <i class="devicon-php-plain"></i>
+          <i class="devicon-mysql-plain"></i>
+        </div>
+      </div>
+    </div>
+
+    <!-- EXPERIENCIA 2 -->
+    <div class="experience-card">
+      <div class="carousel">
+        <img src="img/sistemvent.png" class="active">
+        <img src="img/sis1.png">
+        <img src="img/sist2.png">
+        <img src="img/sis3.png">
+        <img src="img/sis5.png">
+        <img src="img/sist4.png">
+      </div>
+
+      <div class="exp-content">
+        <h3>Punto de Venta – Modelorama</h3>
+        <span>Enero – Junio 2024</span>
+        <p>
+          Desarrollo de un sistema de punto de venta en <strong>Java</strong>,
+          integrado con <strong>MariaDB</strong>.
+          Permitió administrar inventario, ventas y productos,
+          optimizando el control del negocio.
+        </p>
+
+        <div class="tech">
+          <i class="devicon-java-plain"></i>
+          <i class="devicon-mysql-plain"></i>
+        </div>
+      </div>
+    </div>
+
+    <!-- EXPERIENCIA 3 -->
+    <div class="experience-card">
+      <div class="carousel">
+        <img src="img/a-03.png" class="active">
+        <img src="img/esp-1-03.png">
+        <img src="img/mod-03-241.png">
+      </div>
+
+      <div class="exp-content">
+        <h3>Sistema de Monitoreo – Rescate Canino</h3>
+        <span>Agosto – Diciembre 2024</span>
+        <p>
+          Desarrollo de un sistema IoT con <strong>Arduino Cloud</strong>,
+          sensores de temperatura, oxigenación y frecuencia cardíaca,
+          permitiendo el monitoreo en tiempo real de perros de rescate
+          durante operaciones de salvamento.
+        </p>
+
+        <div class="tech">
+          <i class="devicon-arduino-plain"></i>
+          <i class="devicon-cplusplus-plain"></i>
+        </div>
+      </div>
+    </div>
+
+    <!-- EXPERIENCIA 4 -->
+    <div class="experience-card">
+      <div class="carousel">
+        <img src="img/ventas.png" class="active">
+        <img src="img/ventaslog.png">
+        <img src="img/ventas2.png">
+        <img src="img/ventas1.png">
+      </div>
+
+      <div class="exp-content">
+        <h3>Sistema de Ventas – Web App</h3>
+        <span>Enero – Marzo 2025</span>
+        <p>
+          Desarrollo de un sistema de ventas utilizando
+          <strong>Vite + React</strong> y <strong>Supabase</strong>
+          como backend, integrando autenticación y una base de datos
+          relacional <strong>PostgreSQL</strong>.
+        </p>
+
+        <div class="tech">
+          <i class="devicon-react-original"></i>
+          <i class="devicon-postgresql-plain"></i>
+          <i class="devicon-javascript-plain"></i>
+        </div>
+      </div>
+    </div>
+
+    <!-- EXPERIENCIA 5 -->
+    <div class="experience-card">
+      <div class="carousel">
+        <img src="img/web-app.png" class="active">
+        <img src="img/atention.png">
+        <img src="img/web2api.png">
+      </div>
+
+      <div class="exp-content">
+        <h3>Sistema Web Municipal – H. Ayuntamiento de Cocula</h3>
+        <span>Agosto – Diciembre 2025</span>
+        <p>
+          Desarrollo de un sistema web institucional durante residencias
+          profesionales, utilizando <strong>React, HTML y CSS</strong>,
+          con backend en <strong>PHP y MySQL</strong>.
+          Permitió la gestión de información municipal,
+          atención ciudadana, chats y reportes.
+        </p>
+
+        <div class="tech">
+          <i class="devicon-react-original"></i>
+          <i class="devicon-php-plain"></i>
+          <i class="devicon-mysql-plain"></i>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ================= CONTACTO ================= -->
+<section class="contact" id="contact">
+
+  <h2 class="section-title">Contacto</h2>
+
+  <div class="contact-box">
+    <p>
+      ¿Te interesa colaborar o tienes alguna pregunta?
+      Puedes contactarme directamente por cualquiera de estos medios.
+    </p>
+
+    <div class="contact-links">
+      <a href="mailto:juanangelcaguilar938@gmail.com" class="btn">
+        Email
+      </a>
+
+      <a href="https://github.com/ANG45543"
+         target="_blank"
+         class="btn outline">
+        GitHub
+      </a>
+     
+      <a href="https://wa.me/5213312345678"
+         target="_blank"
+         class="btn whatsapp">
+        WhatsApp
+      </a>
+      <a href="https://www.linkedin.com/in/tuusuario"
+         target="_blank"
+         class="btn outline">
+        LinkedIn
+      </a>
+    </div>
+  </div>
+
+</section>
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
